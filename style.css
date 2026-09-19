@@ -1,0 +1,152 @@
+.succes {
+  color: rgb(238, 238, 238);
+}
+.unsucces {
+  color: rgb(72, 31, 31);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/roses-flowers-red-dry-stems-dried-white-background-blur-wall.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+input {
+  width: 400px;
+  height: 45px;
+  padding: 20px;
+  border: none;
+  box-shadow: inset 0 0 20px 16px rgba(232, 198, 220, 0.636);
+  background: rgba(241, 35, 35, 0.31);
+  border-radius: 15px;
+}
+.container {
+  min-height: 650px;
+  width: 650px;
+  margin-top: 100px;
+  border-radius: 20px;
+  backdrop-filter: blur(30px);
+  flex-direction: column;
+
+  background-color: rgb(255, 255, 255, 0.1);
+}
+.header {
+  text-align: start;
+  padding: 25px;
+  color: rgb(157, 113, 153);
+  margin-left: 60px;
+  font-size: larger;
+}
+.user-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.password-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.username {
+}
+.password {
+}
+
+.btn {
+  width: 400px;
+  height: 60px;
+  padding: 20px;
+  border: none;
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  box-shadow: inset 0 0 20px 16px rgba(232, 198, 220, 0.636);
+
+  border-radius: 15px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.or {
+  font-size: xx-large;
+}
+.google {
+  margin-bottom: 40px;
+  width: 400px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: rgb(130, 38, 38);
+  color: aliceblue;
+  font-size: x-large;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.linesection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  height: 1px;
+  background-color: rgb(131, 30, 30);
+  width: 150px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.user-text {
+  font-size: 25px;
+}
+.pass-text {
+  font-size: 25px;
+}
+.after-all {
+  height: 400px;
+  width: 600px;
+  position: fixed;
+  background-color: rgb(220, 200, 200);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 30px;
+}
+.check {
+  display: flex;
+  margin-top: 40px;
+  height: 150px;
+  width: auto;
+}
+.btn2 {
+  height: 100px;
+  width: 400px;
+  border-radius: 40px;
+  font-size: 40px;
+  background-color: rgb(158, 127, 156);
+  color: aliceblue;
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.hidden {
+  display: none;
+}
